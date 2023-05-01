@@ -1,0 +1,16 @@
+body {
+    /* background-image: url(/lightblue.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.main {
+    width: fit-content;
+}
+#colorSelect {
+    width: fit-content;
+    margin: auto;
+    margin-top: 5rem;
+
+}
