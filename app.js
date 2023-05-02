@@ -23,5 +23,5 @@ function handleSelectChange(event) {
 }
 function changeTheme(color) { 
     console.log("changetheme")
-    document.getElementsByTagName('body').style.backgroundImage = `url(/jeremychen212.github.io/hw4/images/${color}.jpg)`;
+    document.getElementsByTagName('body').style.backgroundImage = `url(/images/${color}.jpg)`;
 }
