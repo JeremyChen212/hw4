@@ -1,9 +1,9 @@
 var CACHE_VERSION = 'hw4';
 var CACHE_FILES = [
-    'images/lightblue.jpg',
-    'images/lightgold.jpg',
-    'app.js',
-    'style.css'
+    '/images/lightblue.jpg',
+    '/images/lightgold.jpg',
+    '/app.js',
+    '/style.css'
 ];
 
 self.addEventListener('install', event => {
