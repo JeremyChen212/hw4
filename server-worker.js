@@ -42,20 +42,3 @@ self.addEventListener('fetch', event => {
     );
 });
 
-const colorSelect = document.getElementById("colorSelect")
-    const value = colorSelect.value
-    const lightbluebg = document.getElementById("lightblue")
-    const lightgoldbg = document.getElementById("lightgold")
-
-    colorSelect.addEventListener("change", handleSelectChange)
-
-    
-    function handleSelectChange(event) {
-        const currentValue = event.target.value;
-        console.log(currentValue)
-        changeTheme(currentValue)
-    }
-    function changeTheme(color) {
-        console.log("changetheme")
-        document.getElementsByTagName('body')[0].style.backgroundImage = 'url(/images/' + color + '.jpg)';
-    }
