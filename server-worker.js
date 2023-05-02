@@ -1,4 +1,4 @@
-var CACHE_VERSION = 'myapp-v1';
+var CACHE_VERSION = 'hw4';
 var CACHE_FILES = [
     'images/lightblue.jpg',
     'images/lightgold.jpg',
