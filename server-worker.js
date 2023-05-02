@@ -3,7 +3,8 @@ var CACHE_FILES = [
     '/images/lightblue.jpg',
     '/images/lightgold.jpg',
     '/app.js',
-    '/style.css'
+    '/style.css',
+    'manifest.json'
 ];
 
 self.addEventListener('install', event => {
