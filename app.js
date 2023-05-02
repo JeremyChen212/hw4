@@ -21,7 +21,7 @@ function handleSelectChange(event) {
     console.log(currentValue)
     changeTheme(currentValue)
 }
-function changeTheme(color) {
+function changeTheme(color) { 
     console.log("changetheme")
     document.getElementsByTagName('body').style.backgroundImage = 'url(/hw4/images/' + color + '.jpg)';
 }
